@@ -11,10 +11,10 @@ include "GOVDataSDK.php";
 **/
 
 //APIv1
-$context = new GOVDataContext('http://api.dol.gov','ADD_YOUR_API_KEY_HERE',null);
+$context = new GOVDataContext('http://api.dol.gov','fafa7553-346e-4925-bd6f-4dcbf30230a2',null);
 
 //APIv2-Quarry
-//$context = new GOVDataContext('https://quarry.dol.gov','ADD_YOUR_API_KEY_HERE',null);
+$context = new GOVDataContext('https://quarry.dol.gov','fafa7553-346e-4925-bd6f-4dcbf30230a2',null);
 
 //Instantiate  new request object. Pass the context that contains all the API key info
 $request = new GOVDataRequest($context);
